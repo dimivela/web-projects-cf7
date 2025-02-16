@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    border: 1px solid black;
+}
+
+.aueb-img {
+    width: 400px;
+    height: auto;
+}
+
+.nav {
+    display: inline-block;
+}
+
+
+.nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+/*Τα στοιχεία της λίστας μπαίνουν δίπλα-δίπλα το ένα με το άλλο*/
+
+.nav li:first-child {
+    margin-left: 30px;
+}
+
+.nav a {
+    background-color: lightcoral;
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: purple;
+}

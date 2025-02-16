@@ -1,0 +1,78 @@
+body{
+    color: lightcoral;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: brown;
+}
+
+p, li {
+    background-color: aquamarine;
+}
+
+.paragraph-1 {
+    width: 400px;
+    height: 300px;
+    color: red;
+    background-color: bisque;
+}
+
+img.paragraph-1 {
+    height: auto;
+    border: 4px solid rebeccapurple;
+}
+
+.aueb-text {
+    color: yellow;
+    background-color: black;
+}
+
+#auebText {
+    color: black;
+    background-color: orange;
+}
+
+ul > li {
+    color: orange;
+}
+
+ul strong {
+    background-color: gray;
+}
+
+ul em {
+    background-color: red;
+}
+
+h1 + p {
+    background-color: red
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    background-color: green;
+}
+
+a:focus {
+    outline: none;
+    background-color: yellow;
+}
+
+a:active {
+    background-color: chocolate;
+    color: white;
+}
+
+/* LoVeHateFeAr */

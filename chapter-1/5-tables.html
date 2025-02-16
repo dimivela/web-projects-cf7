@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Ενας απλός πίνακας</h1>
+    <table>
+        <tr>
+            <td>Μάθημα</td>
+            <td>Καθηγητής</td>
+            <td>Μέρα</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Θανάσης</td>
+            <td>Δευτέρα</td>
+        </tr>
+    </table>
+
+    <h1>Thead, Tbody, Tfooter</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Μάθημα</th>
+                <th>Καθηγητής</th>
+                <th>Μέρα</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Java</td>
+                <td>Θανάσης</td>
+                <td>Δευτέρα</td>
+            </tr>
+        </tbody>
+        <!-- <tfoot>
+            <tr>
+                <td>column1</td>
+                <td>column2</td>
+                <td>column2</td>
+            </tr>
+        </tfoot> -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Coding Factory</td>
+            </tr>
+        </tfoot>
+        <!-- Το colspan σημαίνει σε πόσες στήλες μπορεί να επεκταθεί αυτό που έχω γράψει. Άρα έκανα merge κελιά. -->
+    </table>
+
+    <hr> 
+    <!-- Δημιουργεί μία διαχωριστική γραμμή. -->
+    <table>
+        <thead>
+            <th>Μάθημα</th>
+            <th>Καθηγητής</th>
+            <th>Μέρα</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Java</td>
+                <td>Θανάσης</td>
+                <td>Δευτέρα</td>
+            </tr>
+            <tr>
+                <td>Web</td>
+                <td>Μάρκος, Παναγιώτης</td>
+                <td rowspan="2">Τετάρτη</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Καπέτης</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Table making with abreviations: table>tr*3>td*2 -->
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

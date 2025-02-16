@@ -1,0 +1,15 @@
+.main {
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.main > img {
+    width: 85px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

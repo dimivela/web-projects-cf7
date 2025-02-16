@@ -1,0 +1,23 @@
+body {
+    background-color: lightgray;
+}
+
+
+.ntua-header {
+    background-color: brown;
+    /*color: white;*/
+}
+
+.physics-header {
+    background-color: green;
+    /*color: white;*/
+}
+
+.ntua-text {
+    background-color: lightcoral;
+    /*color: white;*/
+}
+
+.fg-light {
+    color: white;
+}

@@ -1,0 +1,22 @@
+h2[id], p[id] {
+    background-color: aqua;
+}
+
+a[href="#"] {
+    background-color: aquamarine;
+}
+
+*[class^="info"] {
+    color: green;
+}
+/* Το ^ σημαίνει 'ξεκινάει με'.*/
+
+*[class*="text"] {
+    background-color: burlywood;
+}
+/* Το * σημαίνει το attribute (πχ class) 'να περιέχει την' τάδε συμβολοσειρά*/
+
+h2[class$="title"] {
+    font-style: italic;
+}
+/* Το $ σημαίνει 'τελειώνει με' */

@@ -1,0 +1,11 @@
+ul {
+    background-color: lightgreen;
+    list-style: square;
+}
+
+ul li {
+    background-color: brown;
+    color: beige;
+}
+
+/* The reason we write 'ul' before the 'li' is to stylize only the list elements of the Unordered Lists.*/

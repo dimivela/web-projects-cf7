@@ -1,0 +1,15 @@
+.conteiner {
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.social > .fa-facebook {
+    color: darkblue;
+    font-size: 2rem;
+}
+
+.social > .fa-twitter {
+    color: lightskyblue;
+    font-size: 2rem;
+}

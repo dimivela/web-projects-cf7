@@ -1,0 +1,30 @@
+
+
+img {
+    width: 600;
+    height: auto;
+}
+
+ul > li {
+    color: red;
+}
+
+ul > li:first-child {
+    color: blue;
+}
+
+ul > li:not(:first-child) {
+    background-color: lightcoral;
+}
+
+h1 + p{
+color: blue ;
+}
+
+a::before {
+
+}
+
+a::after{
+    
+}

@@ -1,0 +1,29 @@
+div[class^=box] {
+    height: 50px;
+    width: 60px;
+    background-color: lightblue;
+
+}
+
+.container {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 {
+    align-self: flex-end;
+    order: 1;
+}
+
+.box3 {
+    order: 2;
+}
+
+.box8 {
+    align-self: self-start;
+}

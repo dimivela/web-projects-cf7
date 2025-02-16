@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+
+.anti-img {
+    width: 500;
+    height: auto;
+    border: 2px dotted rgb(155, 198, 115);
+    
+}
+
+.anti-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 0px lightcoral;
+    text-align: center;
+    color: #762124;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: dotted;
+    border-color: yellow;
+}

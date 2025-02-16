@@ -1,0 +1,104 @@
+:root {
+    --white: #f9f9f9;
+    --navy: #002e94;
+    --blue: #083aa9;
+    --wedding: #ffe7cc;
+    --beige: #e1ceb5;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bgc-navy {
+    background-color: var(--navy);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-wedding {
+    background-color: var(--wedding);
+}
+
+.bg-beige {
+    background-color: var(--beige);
+}
+
+.text-wedding {
+    color: var(--wedding);
+}
+
+.text-none {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.padd-1 {
+    padding: 1rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.d-block {
+    display: block;
+}
+
+.w-100 {
+    width: 100%ss;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.link-hover-navy:hover {
+    background-color: var(--navy);
+}
+
+.banner-img {
+    height: auto;
+    width: 300px;
+    border-radius: 10%;
+}

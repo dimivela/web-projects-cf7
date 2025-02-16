@@ -1,0 +1,91 @@
+:root {
+    --color-aueb: #762124; 
+} /* Δημιουργία ψευδοκλάσης και ορισμός μεταβλητής,
+  που μπορώ να χρησιμοποιώ παντού στο αρχείο css ως 
+  var(ονομα μεταβλητής).*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: var(--color-aueb);
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo > img {
+height: 100px;
+width: auto;
+}
+
+nav {
+    float: left;
+    width: 500px;
+    /* background-color: aquamarine; */
+}
+
+nav > ul {
+    height: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 15px 10px;
+}
+
+.home-img {
+    width: 100%;
+    height: 400px;
+    background-image: url(../.../../../images/logo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.home-title {
+    color: lightblue;
+    width: 50%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+main > h2 {
+    text-align: center;
+}
+
+footer {
+    height: 120px;
+    background-color: var(--color-aueb);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

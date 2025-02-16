@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <div>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="male"> Male </label>
+        
+        <input type="radio" id="female" value="female" name="gender" checked>
+        <label for="female"> Female </label>
+        </div>
+        <div>
+            <input type="checkbox" name="bike" id="bicycle">
+            <label for="bicycle"> Bicycle </label>
+            <input type="checkbox" name="motorcycle" id="motorcycle" checked>
+            <label for="motorcycle"> Motorcycle</label>
+        </div>
+        <div>
+            <label for="nationality"> Nationality</label>
+            <select id="nationality">
+                <option value="" disabled hidden selected> Select Nationality </option>
+                <!--Here we enter the option to select a nationality, to inform the user. The attributes make the option pre-selected and not possible to be selected by the user.-->
+                <option value="greek"> Greece </option>
+                <option value="english"> Great Britain</option>
+                <option value="spanish">Spain</option>
+            </select>
+        </div>
+        <div>
+            <label for="firstname"> Name: </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Please, type your first name." minlength="2">
+            <!--The attribute 'placeholder' shows the text in the quote inside the box.-->
+        </div>
+        <div>
+            <label for="lastname"> Last Name: </label>
+            <input type="text" name="lastname" id="lastname" placeholder="Please, type your last name." minlength="1">
+        </div>
+        <div>
+            <label for="workexperience"> Years of Work Experience: </label>
+            <input type="number" name="workexperience" id="workexperience" >
+        </div>
+        <div>
+            <label for="birthday"> Date of Birth: </label>
+            <input type="date" name="birthday" id="birthday">
+        </div>
+        <div>
+            <label for="email"> Email:</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
