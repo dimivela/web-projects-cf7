@@ -47,11 +47,15 @@
 }
 
 .z-front {
-    z-index: 1; /* Για να λειτουργησει αυτό θα πρέπει να υπάρχει σε κάποιο από τις κλάσεις του attribute ή το position;relative η το position: absolute*/
+    z-index: 1; /* Για να λειτουργησει αυτό θα πρέπει 
+                    να υπάρχει σε κάποιο από τις κλάσεις του attribute 
+                    ή το position: relative η το position: absolute*/
 }
 
 .item-sticky {
     position: sticky;
-    position: -webkit-sticky; /*ΑΥτό είναι αναγκαίο για          να καταλάβουν κάποιοι συγκεκριμένοι browsers όπως ο safari, το sticky*/
+    position: -webkit-sticky; /*Αυτό είναι αναγκαίο για να καταλάβουν 
+                                κάποιοι συγκεκριμένοι browsers όπως ο safari, 
+                                το sticky*/
     top: 0;
 }

@@ -23,3 +23,7 @@ div[class^=box] {
 .box3 {
     flex: 2;
 }
+
+.box1 {
+    flex: initial; /* width: 60px*/
+}
