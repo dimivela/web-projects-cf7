@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* position: relative; */
 }
 
 .box1 {
@@ -36,7 +37,10 @@
 
 .item-absolute {
     position: absolute;
-    top: 0;
+    top: 40px; /* Αν ο "πατερας" container 
+                εχει prosition: relative, τοτε το
+                position: absolute γινεται με βασει τον
+                container και οχι ολοκληρο τον browser*/
     left: 0;
 }
 
