@@ -17,13 +17,14 @@ div[class^=box] {
 
 .box1 {
     align-self: flex-end;
-    order: 1;
-}
-
-.box3 {
     order: 2;
 }
 
-.box8 {
-    align-self: self-start;
+.box2, .box3, .box4, .box5 {
+    order: 1;
+}
+
+.box6, .box7, .box8, .box9 {
+    /* align-self: self-start; */
+    order: 3;
 }
