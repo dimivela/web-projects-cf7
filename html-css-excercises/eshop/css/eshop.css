@@ -1,0 +1,30 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.product {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 60%;
+    height: auto;
+}
+
+.product button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
